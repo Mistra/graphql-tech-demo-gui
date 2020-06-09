@@ -1,72 +1,65 @@
-html,
-body,
-#root,
-.row {
-  /*background-color: #282c34;*/
-  min-height: 100%;
-  height: 100%;
+html, body, #root, .row {
+    /*background-color: #282c34;*/
+    min-height: 100%;
+    height: 100%;
 }
 
 :focus {
-  outline: none;
+    outline: none;
 }
 
 ::-moz-focus-inner {
-  border: 0;
+    border: 0;
 }
 
 .menu {
-  background-color: #363d4a;
-  color: white;
+    background-color: #363d4a;
+    color: white;
 }
 
 .menu-header {
-  background-color: #2b323d;
+    background-color: #2b323d;
 }
 
 .menu-entry:hover {
-  background-color: #454d5c;
+    background-color: #454d5c;
 }
 
-.menu a:link,
-.menu a:visited {
-  color: white;
+.menu a:link, .menu a:visited {
+    color: white;
 }
 
 .menu-entry:active {
-  border-color: #232933 #232933 #414a57 #414a57;
+    border-color: #232933 #232933 #414a57 #414a57;
 }
 
-.menu-entry,
-.menu-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 1px solid;
-  border-color: #414a57 #414a57 #232933 #232933;
-
-  min-height: 60px;
-  height: 60px;
-  color: white;
+.menu-entry, .menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #414a57 #414a57 #232933 #232933;
+    min-height: 60px;
+    height: 60px;
+    color: white;
 }
 
 .menu-header-text {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .menu-entry-text {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .App {
-  background-color: #ececec;
-  text-align: center;
-  align-items: center;
-  padding: 0;
+    background-color: #ececec;
+    text-align: center;
+    align-items: center;
+    padding: 0;
 }
 
 .board {
-  min-height: 100%;
-  height: 100%;
+    min-height: 100%;
+    height: 100%;
 }
